@@ -1,0 +1,20 @@
+body {
+  background-image: url('./images/pattern-background-mobile.svg');
+  background-color: #d6e1ff;
+}  
+
+@media only screen and (min-width: 576px) {
+  body {
+    background-image: url('./images/pattern-background-desktop.svg');
+  }  
+}
+
+.container {
+  width: 450px;
+  height: 697px;
+  margin: 0 auto; 
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+
