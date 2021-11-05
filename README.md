@@ -99,7 +99,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/order-summary-screenshot.jpg)
+![Screenshot of order summary](./order-summary-screenshot.jpg)
 
 ### Links
 
