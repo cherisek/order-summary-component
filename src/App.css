@@ -12,33 +12,27 @@ body {
   font-family: 'Red Hat Display', sans-serif; 
 }  
 
-@media only screen and (min-width: 576px) {
-  body {
-    background-image: url('./images/pattern-background-desktop.svg');
-  }  
-}
-
 .container {
-  width: 450px;
-  height: 697px;
-  margin: 0 auto; 
+  width: 327px;
+  height: 567px;
+  margin: 50px auto; 
   border-radius: 2px;
   background-color: #fff;
   border-radius: 20px;
 }
 
 .hero {
-  margin-bottom: 45px;
+  margin-bottom: 32px;
 }
 
-img {
+.hero-img {
+  width: 327px; 
+  height: 160px;
   border-radius: 20px 20px 0px 0px;
 }
 
 .order-summary {
-  width: 354px;
-  height: 37px;
-  margin: 0 auto;
+  margin: 0 20px;
 }
 
 h2 {
@@ -47,7 +41,7 @@ h2 {
   color: #1f2e55;
   line-height: 37px;
   text-align: center;
-  margin-bottom: 17px;
+  margin-bottom: 13px;
 }
 
 p {
@@ -55,7 +49,7 @@ p {
   font-size: 16px;
   color: #717fa6;
   line-height: 26px;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   text-align: center;
 }
 
@@ -64,8 +58,8 @@ p {
   justify-content: space-between;
   background-color: #f7f9ff;
   border-radius: 11px;
-  padding: 25px 24px;
-  margin-bottom: 32px;
+  padding: 17px 16px 16px 16px;
+  margin-bottom: 24px;
 }
 
 .order-plan-type {
@@ -91,7 +85,7 @@ p {
   display: flex;
 }
 
-.plan-right {
+.plan-right a {
   font-weight: 700;
   font-size: 14px;
   line-height: 18.52px;
@@ -100,7 +94,7 @@ p {
   margin-top: 10px;
 }
 
-.plan-right:hover {
+.plan-right a:hover {
   cursor: pointer;
   color: #766cf1;
 }
@@ -111,8 +105,8 @@ p {
   background: #382ae1;
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
   border-radius: 11px;
-  margin-bottom: 32px;
-  padding: 15px 102px;
+  margin-bottom: 24px;
+  padding: 15px 64px;
   width: 100%;
   font-weight: 900;
   font-size: 15px;
@@ -142,6 +136,52 @@ p {
 .cancel-payment a:hover {
   cursor: pointer;
   color: #1F2e55;
+}
+
+
+@media only screen and (min-width: 576px) {
+  body {
+    background-image: url('./images/pattern-background-desktop.svg');
+  }  
+
+  .container {
+    width: 450px;
+    height: 697px;
+  }
+
+  .hero {
+    margin-bottom: 45px;
+  }  
+
+  .hero-img {
+    width: 450px; 
+    height: 220px;
+  }
+
+  h2 {
+    margin-bottom: 17px;
+  }
+
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #717fa6;
+    line-height: 26px;
+    margin: 0 auto 20px auto;
+    width: 354px;
+    height: 78px; 
+    text-align: center;
+  }
+
+  .plan {
+    padding: 25px 24px;
+    margin-bottom: 32px;
+  }
+
+  .complete-payment button {
+    padding: 15px 102px;
+    margin-bottom: 32px;
+  }
 }
 
 

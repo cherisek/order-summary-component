@@ -11,7 +11,7 @@ const Plan = () => {
           <div className="order-plan-price">$59.99/year</div>
         </div>
       </div>
-      <div className="plan-right">Change</div>
+      <div className="plan-right"><a href="/">Change</a></div>
   </div>
   )
 }
