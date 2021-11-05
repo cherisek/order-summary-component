@@ -100,6 +100,11 @@ p {
   margin-top: 10px;
 }
 
+.plan-right:hover {
+  cursor: pointer;
+  color: #766cf1;
+}
+
 .complete-payment button {
   color: #fff; 
   border: #382ae1;
@@ -114,6 +119,12 @@ p {
   line-height: 20px;
 }
 
+.complete-payment button:hover {
+  cursor: pointer;
+  background: #766cf1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);  
+}
+
 .cancel-payment {
   text-align: center;
 }
@@ -126,6 +137,11 @@ p {
   font-weight: 900;
   font-size: 15px;
   line-height: 20px;
+}
+
+.cancel-payment a:hover {
+  cursor: pointer;
+  color: #1F2e55;
 }
 
 
