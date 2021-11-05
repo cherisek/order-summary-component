@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;900&display=swap');
+
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box;
+}
+
 body {
   background-image: url('./images/pattern-background-mobile.svg');
   background-color: #d6e1ff;
+  font-family: 'Red Hat Display', sans-serif; 
 }  
 
 @media only screen and (min-width: 576px) {
@@ -15,6 +24,108 @@ body {
   margin: 0 auto; 
   border-radius: 2px;
   background-color: #fff;
+  border-radius: 20px;
+}
+
+.hero {
+  margin-bottom: 45px;
+}
+
+img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.order-summary {
+  width: 354px;
+  height: 37px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 28px;
+  color: #1f2e55;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #717fa6;
+  line-height: 26px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f9ff;
+  border-radius: 11px;
+  padding: 25px 24px;
+  margin-bottom: 32px;
+}
+
+.order-plan-type {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21.17px;
+  color: #1f2e55;
+  margin-bottom: 5px;
+}
+
+.order-plan-price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.17px;
+  color: #717fa6; 
+}
+
+.music-icon {
+  margin-right: 20px;
+}
+
+.plan-left {
+  display: flex;
+}
+
+.plan-right {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18.52px;
+  color: #382ae1; 
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.complete-payment button {
+  color: #fff; 
+  border: #382ae1;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  margin-bottom: 32px;
+  padding: 15px 102px;
+  width: 100%;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.cancel-payment {
+  text-align: center;
+}
+
+.cancel-payment a {
+  border: transparent;
+  background-color: transparent;
+  color: #717fa6; 
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 

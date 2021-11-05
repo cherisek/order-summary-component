@@ -3,7 +3,7 @@ import HeroImg from '../images/illustration-hero.svg';
 
 const Header = () => {
   return (
-    <div className="hero-container">
+    <div className="hero">
       <img src={HeroImg} alt="hero-img"/>
     </div>
   )
